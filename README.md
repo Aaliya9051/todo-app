@@ -12,7 +12,7 @@ This app helps users manage daily tasks efficiently with progress tracking and a
 
 ## 📸 Screenshot
 
-![App Screenshot](screenshot.png)
+![App Screenshot](screenshot.png.png)
 
 ---
 
