@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To-Do App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<button id="darkToggle" class="toggle-btn">🌙</button>
+
+<div class="container">
+  <h2>To-Do List</h2>
+
+  <div class="input-box">
+    <input type="text" id="taskInput" placeholder="Enter task...">
+    <button onclick="addTask()">Add</button>
+  </div>
+
+  <div class="filters">
+    <button onclick="filterTasks('all')">All</button>
+    <button onclick="filterTasks('completed')">Completed</button>
+    <button onclick="filterTasks('pending')">Pending</button>
+  </div>
+
+  <p id="taskCount"></p>
+
+  <!-- ✅ FIXED PROGRESS BAR -->
+  <div class="progress">
+    <div id="progressBar">0%</div>
+  </div>
+
+  <p id="suggestion"></p>
+
+  <ul id="taskList"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
